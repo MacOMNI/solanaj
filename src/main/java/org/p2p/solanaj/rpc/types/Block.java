@@ -12,7 +12,7 @@ import java.util.List;
 public class Block {
 
     @Json(name = "blockTime")
-    private int blockTime;
+    private long blockTime;
 
     @Json(name = "blockHeight")
     private String blockHeight;
